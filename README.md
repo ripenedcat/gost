@@ -9,6 +9,9 @@
 
 ## gost.service
 复制到`/usr/lib/systemd/system`
+
 chmod 777 gost.service 
+
 systemctl enable gost 
+
 systemctl restart gost
